@@ -1,0 +1,40 @@
+.introduction{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.icon{
+    max-width: 100px;
+}
+
+.group-introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.group-introduction h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.group-introduction p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+}
+
+.progresso{
+    height: 15px;
+    width: 90vw;
+    margin: 15px 0;
+    display: flex;
+}
+.falta{
+    width: 10%;
+    background-color: orange;
+}
+.feito{
+    width: 90%;
+    background-color: black;
+}

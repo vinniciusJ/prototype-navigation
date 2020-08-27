@@ -1,41 +1,126 @@
-.icon{
-    margin: 0 50px;
-    max-width: 100px;
+:root{
+    --color-primary: #FFCE00;
+    --color-secondary: #8645FF;
+    --color-secondary-lighter: #D1CDEF;
+    --color-secondary-darker: #bcb5f1;
+    --color-nav: #878784;
+    --color-dark: #131415;
+    --color-nav-light: #a3a3a3;
+   --color-base-primary: #d4d3d3;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*, button, input{
+    font-family: 'Roboto', sans-serif;
+}
+.header-container{
+    background: var(--color-nav);
 
-.icon-group{
+    width: 100vw;
+    height: 10vh;
+
     display: flex;
-    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container div h1{
+    color: var(--color-dark);
+    text-transform: uppercase;
+}
+.header-container div{
+    min-width: 20vw;
+
+    display: flex;
     justify-content: center;
 }
-
-#neymar-section{
+.main-container {
     display: flex;
-    margin-left: 10%;
+    justify-content: center;
+
+    min-height: 80vh;
+}
+.footer-container{
+    width: 100vw;
+    height: 10vh;
+
+    background: var(--color-nav);
+
+    display: flex;
+    justify-content: center;
+}
+.footer-container .information p{
+    font-size: 1.2rem;
+}
+.footer-container .information{
+    margin-top: 2.2rem;
+}
+
+.section-content{
+    min-width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+.info-section{
+    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 300px;
+    
 }
-
-#neymar-section h1{
+.info-section h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
 }
 
-#neymar-section h2{
+.info-section h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-}
+    font-size: 1.3rem;
 
-.neymar-icon{
+    margin-top: 1rem;
+}
+.info-icon{
     border-radius: 50%;
+    
     max-width: 300px;
     max-height: 300px;
+
     border-style: solid;
     border-width: 5px;
     border-color: black;
     transition: opacity 0.4s;
 }
-.neymar-icon:hover{
+.info-icon:hover{
     opacity: 95%;
+}
+
+.flag{
+    margin: 0 50px;
+    max-width: 100px;
+}
+.icon{
+    width: 8rem;
+}
+
+.icon-group{
+    margin-left: 10vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20vw;
+}
+.group{
+    display: flex;
+    justify-content: center;
+}
+.group h3{
+    padding: 4rem 1rem;
 }

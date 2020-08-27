@@ -3,6 +3,8 @@
 :root{
     --color-primary: #FFCE00;
     --color-secondary: #8645FF;
+    --color-secondary-lighter: #D1CDEF;
+    --color-secondary-darker: #bcb5f1;
     --color-nav: #878784;
     --color-dark: #131415;
     --color-nav-light: #a3a3a3;
@@ -74,7 +76,7 @@ body{
     margin-right: 1rem;
 }
 .container header nav a:hover, header nav a:focus{
-    background: var(--color-nav-light);
+    background: var(--color-primary);
 }
 /*---------------------------------------------------------------------------------------------------------------*/
    
